@@ -1,0 +1,100 @@
+/* #header{
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: #fe3b1f;
+  font-family: "Rowdies", cursive;
+}
+
+.RightSide{
+
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 5%;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
+  
+
+    background-color: #454545;
+    text-align: left;
+  
+}
+.LeftSide{
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 5%;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 100px;
+}
+#header{
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: #fe3b1f;
+  font-family: "Rowdies", cursive;
+}
+#regInput{
+  height: 54px;
+width: 455px;
+left: 235px;
+top: 390px;
+border-radius: 0px;
+margin-bottom: 35px;
+}
+.form{
+  margin:auto;
+}
+/* .form-container {
+  background-color: crimson;
+  height: 70%;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+} */
+.split {
+  height: 100vh;
+  width: 50%;
+  top: 0;
+  position: fixed;
+  overflow-x: hidden;
+  padding-top: 20px;
+  z-index: 1;
+
+}
+.right{
+  right: 0;
+  background-color: #111;
+  color: #ffffff;
+  padding: 0 100px;
+  font-size: 25px;
+  letter-spacing: 5%;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #454545;
+  text-align: left;
+  padding-top: 70px;
+}
+.left {
+  left: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 140px;
+}
+ #header{
+   margin-top: 100px;
+ }
